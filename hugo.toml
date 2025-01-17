@@ -1,0 +1,273 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Zhang Jianing"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "ZhangJianing"
+    description = "CV based on DevResume"
+
+
+    primaryColor = "#9FA5E0"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Jianing Zhang"
+        tagline = "Postdoctoral researcher"
+        avatar = "test_zjn.jpeg"
+
+
+    [params.contact]
+        enable = true
+        location = "Boston"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+1-857-214-9667"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "zhjning@hotmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "github.com/zhjning"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Skills"
+        [[params.skills.list.items]]
+        details = "Python/R/Matlab"
+        [[params.skills.list.items]]
+        details = "Bulk/single-cell sequencing techniques"
+        [[params.skills.list.items]]
+        details = "Muti-omics analysis"
+        [[params.skills.list.items]]
+        details = "Machine learning approaches"
+	[[params.skills.list.items]]
+	details = "MRI/CT image processing"
+
+        [[params.skills.list]]
+        title = "Research interests"
+        [[params.skills.list.items]]
+        details = "Vascular biology dieseases"
+        [[params.skills.list.items]]
+        details = "Immunosenescence"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "PhD in Bioinformatics"
+        university = "Zhejiang Univeristy"
+        dates = "2013 - 2018"
+        [[params.education.list]]
+        degree = "BSc in Bioinformatics"
+        university = "Zhejiang Univeristy"
+        dates = "2009 - 2013"
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "xx"
+        date = "2015"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2013"
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Chinese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+	[[params.languages.list]]
+	name = "Japanese"
+	level = "Newbie"
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Calligraphy"
+        [[params.interests.list]]
+        name = "Handicraft"
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "A short summary presents here."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Postdoc researcher"
+        dates = "2022 - Present"
+        company = "Brigham and Women's Hospital"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+	[[params.experience.list]]
+	title = "Visiting scholar"
+	dates = "2022.3 - 2022.6"
+	company = ""
+	details = ""
+	[[params.experience.list.items]]
+	details = ""
+
+        [[params.experience.list]]
+        title = "Postdoc researcher"
+        dates = "2019 - 2021"
+        company = "Sun Yat-sen Univeristy"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+
+        [[params.experience.list]]
+        title = "Visiting research student"
+        dates = "2017 - 2018"
+        company = "Sick Children Hospital, Toronto University"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        [[params.experience.list.items]]
+	details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2024 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2023 · Sed Fringilla"
+	[[params.information.list.items]]
+	details = "2022 · XX"
+	[[params.information.list.items]]
+	details = "2021 · XX"
+	[[params.information.list.items]]
+	details = "2020 · XX"
+        [[params.information.list]]
+	title = "Patents"
+	[[params.information.list.items]]
+	details = ""
+	[[params.information.list.items]]
+	details = ""
+	[[params.information.list]]
+	title = "Fundings"
+	[[params.information.list.items]]
+	details = "2020 "
+	[[params.information.list.items]]
+	details = "2019 "
+
+
+
+
+
+    [params.social]
+        enable = true
+
+	[[params.social.list]]
+	icon = "fab fa-google-plus-square"
+	url = "//scholar.google.com/citations?user=IOvnbMUAAAAJ&hl=en&oi=ao"
+	title = "gscholar"
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/zhjning"
+        title = "github"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/zhjning"
+        title = "linkedin"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/zhjning"
+        title = "@zhjning"
+
+
+
+
+
